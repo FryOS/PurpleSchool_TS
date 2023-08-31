@@ -30,7 +30,7 @@ const TENTHS_LESS_THAN_HUNDRED: string[] = [
  * @param {boolean} [asOrdinal] - Deprecated, use toWordsOrdinal() instead!
  * @returns {string}
  */
-function toWords(number:number, asOrdinal:boolean):string {
+function toWords(number: number, asOrdinal: boolean): string {
     let words;
     const num = parseInt(number, 10);
 
